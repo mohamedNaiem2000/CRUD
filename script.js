@@ -78,7 +78,7 @@ document.querySelector("#student-list").addEventListener("click", (e) => {
 document.querySelector("#student-list").addEventListener("click", (e) => {
   target = e.target;
   if (target.classList.contains("delete")) {
-    targer.parentElement.parentElement.remove();
+    target.parentElement.parentElement.remove();
     // showAlert("Student Data Deleted", "danger");
   }
 });
